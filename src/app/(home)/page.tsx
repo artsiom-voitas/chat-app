@@ -1,11 +1,11 @@
-import { ThemeSwitcher } from '@/components/ThemeSwitcher';
+import { Header } from '@/components';
 
 export default function Home() {
     return (
         <main className="h-screen">
-            <ThemeSwitcher />
+            <Header />
             <div className="flex h-full flex-col items-center justify-center text-4xl font-bold">
-                Next.js 14 playground.
+                Chat App with Prisma.
             </div>
         </main>
     );
