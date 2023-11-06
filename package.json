@@ -11,7 +11,7 @@
     "dependencies": {
         "@clerk/nextjs": "^4.26.2",
         "@clerk/themes": "^1.7.9",
-        "@nextui-org/react": "^2.2.2",
+        "@nextui-org/react": "^2.2.4",
         "framer-motion": "^10.16.4",
         "geist": "^1.0.0",
         "lucide-react": "^0.292.0",
@@ -22,7 +22,7 @@
     },
     "devDependencies": {
         "@types/node": "^20.8.10",
-        "@types/react": "^18.2.35",
+        "@types/react": "^18.2.36",
         "@types/react-dom": "^18.2.14",
         "autoprefixer": "^10.4.16",
         "eslint": "^8.53.0",
