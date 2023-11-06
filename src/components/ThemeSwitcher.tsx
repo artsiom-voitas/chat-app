@@ -8,11 +8,10 @@ import { useEffect, useState } from 'react';
 export function ThemeSwitcher() {
     const [mounted, setMounted] = useState<boolean>(false);
     const { theme, themes, setTheme, resolvedTheme } = useTheme();
-
-    const isSystemThemeDark = theme || resolvedTheme === 'dark';
-    const Icon = isSystemThemeDark ? <Moon /> : <Sun />;
-
     const [selectedKeys, setSelectedKeys] = useState<any>(new Set([`${theme}`]));
+
+    const isThemeDark: boolean = resolvedTheme === 'dark';
+    const Icon: JSX.Element = isThemeDark ? <Moon /> : <Sun />;
 
     useEffect(() => {
         setMounted(true);
